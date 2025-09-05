@@ -10,7 +10,7 @@
       "type": "customField",
       "customField": "plugin::ckeditor5.CKEditor",
       "options": {
-        "preset": "defaultHtml"
+        "preset": "myCustomPreset"
       }
     }
   },
