@@ -12,6 +12,7 @@ import {
   Link,
   List,
   Paragraph,
+  Alignment
 } from 'ckeditor5';
 
 import {
@@ -22,8 +23,9 @@ import {
   StrapiUploadAdapter,
 } from '@_sh/strapi-plugin-ckeditor';
 
-import InsertHelloPlugin from './ckeditor-plugins/InsertHelloPlugin';
-import Block2Plugin from './ckeditor-plugins/Block2Plugin';
+import TwoColumns from './ckeditor/plugins/block-1/Block1';
+import Block2Plugin from './ckeditor/plugins/block-2/Block2';
+import Block3Plugin from './ckeditor/plugins/block-3/Block3';
 
 const myCustomPreset: Preset = {
   name: 'myCustomPreset',
@@ -45,8 +47,10 @@ const myCustomPreset: Preset = {
       Paragraph,
       StrapiMediaLib,
       StrapiUploadAdapter,
-      InsertHelloPlugin,
+      TwoColumns,
       Block2Plugin,
+      Block3Plugin,
+      Alignment,
     ],
     toolbar: [
       'heading',
@@ -62,8 +66,10 @@ const myCustomPreset: Preset = {
       'undo',
       'redo',
       '|',
-      'insertHello',
+      'twoColumns',
       'block2',
+      'block3',
+      'alignment',
     ],
   },
 };

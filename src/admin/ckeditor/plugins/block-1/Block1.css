@@ -1,0 +1,32 @@
+.two-columns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  .two-columns-content {
+    width: 330px;
+    background: #F6FEFF;
+    border-radius: 16px!important;
+  }
+  .two-columns-content:nth-child(2) {
+    width: 330px;
+    background: #FBF7FF;
+  }
+  .two-columns-title {
+    line-height: 60px!important;
+    height: 60px!important;
+    border-radius: 16px 16px 0px 0px!important;
+    padding-left: 27px!important;
+    padding-right: 27px!important;
+    font-size: 27px!important;
+    margin: 0!important;
+    background: radial-gradient(828.48% 141.42% at 0% 0%,#F0FCFE 0%,#D8F9FD 29.49%,#CCF6FE 64.21%,#DDF1EC 100%);
+  }
+  .two-columns-content:nth-child(2) .two-columns-title {
+    background: radial-gradient(828.48% 141.42% at 0% 0%, #F7F0FE 0%, #E8D8FD 29.49%, #E2CCFE 64.21%, #E6DDF1 100%);
+  }
+  .two-columns-description {
+    padding-left: 27px!important;
+    padding-right: 27px!important;
+  }

@@ -1,4 +1,5 @@
 import { Plugin, ButtonView, Command, Widget, toWidget, toWidgetEditable } from 'ckeditor5';
+import './Block2.css';
 
 export default class Block2 extends Plugin {
     static get requires() {
@@ -26,7 +27,7 @@ class Block2UI extends Plugin {
                 // translated and change when the language of the editor changes.
                 label: t( 'Block #2' ),
                 withText: true,
-                tooltip: true
+                tooltip: true,
             })
 
             // Bind the state of the button to the command.

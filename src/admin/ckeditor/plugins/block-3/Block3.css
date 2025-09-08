@@ -1,0 +1,7 @@
+.block3 {
+    max-width: 400px;
+    padding: 24px !important;
+    width: 100%;
+    border-radius: 32px !important;
+    background: radial-gradient(828.48% 141.42% at 0% 0%, #EFF7FF 0%, #D3ECFD 31.5%, #C9E3FF 66.67%, #DDECFF 100%);
+  }
